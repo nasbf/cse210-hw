@@ -41,5 +41,9 @@ internal class Program
         {
             Console.WriteLine("next time you'll achieve this goal ");
         }
+        for (int i = 2; i <= 20; i = i + 2)
+{
+    Console.WriteLine(i);
+}
     }
 }
