@@ -10,7 +10,7 @@ public class Resume
     public void Display ()
     {
         Console.WriteLine($"{_name} ");
-        Console.WriteLine(_jobList);
+        Console.WriteLine("JOBS:");
 
         foreach (Job job in _jobList)
         {
