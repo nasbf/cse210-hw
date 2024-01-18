@@ -1,6 +1,21 @@
-public class Journal ()
+public class Jorunal
 {
-    Console.WriteLine("Welcome to the Journal Program");
+    public List<Entry> _entries;
 
+    public void addEntry (Entry newEnt)
+    {
 
+    }
+
+    public void Display()
+    {
+
+    }
+
+    public void saveAnswer(string file)
+     {
+
+    }   
+
+    
 }
