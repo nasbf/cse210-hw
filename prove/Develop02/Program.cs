@@ -50,8 +50,7 @@ class Program
                     jour.DisplayAll();
                     break;
                 case 3:
-                    Console.WriteLine("Enter the file:");
-                    string file = Console.ReadLine();
+                    
                     jour.LoadFromFile("myFile.txt");
                     break;
                 case 4:
